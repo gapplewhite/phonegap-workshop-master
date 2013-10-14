@@ -44,7 +44,7 @@ body {
     -ms-background-size: 1px 44px;
     -o-background-size: 1px 44px;
     background-size: 1px 44px;
-    height: 44px;
+    height: 120px;
     line-height: 44px;
     width: 100%;
     color: #fff;
@@ -216,8 +216,7 @@ h2 {
     height:100px;
 }
 .title-image {
-    float:left;
-    margin:10px;
+    float:center;
     width:100px;
     height:100px;
 }
