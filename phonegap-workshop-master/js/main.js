@@ -74,6 +74,7 @@ var app = {
         this.detailsURL = /^#employees\/(\d{1,})/;
         this.registerEvents();
         this.store = new MemoryStore(function() {
+            self.showAlert('CompassTracer', 'Demmo');
             self.route();
         });
     }
