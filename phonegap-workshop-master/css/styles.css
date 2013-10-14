@@ -215,7 +215,12 @@ h2 {
     width:100px;
     height:100px;
 }
-
+.title-image {
+    float:left;
+    margin:10px;
+    width:100px;
+    height:100px;
+}
 .scroll {
     overflow: auto;
     -webkit-overflow-scrolling: touch;
