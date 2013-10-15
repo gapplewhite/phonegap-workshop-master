@@ -126,6 +126,15 @@ var app = {
             $('body').html(new HomeView(self.store).render().el);
         });
     }*/
+    articulo: function() {
+        var html =
+                "<div class='header'><h1>Home</h1></div>" +
+                "<div class='search-view'>" +
+                "<input class='search-key'/>" +
+                "<ul class='employee-list'></ul>" +
+                "</div>"
+        $('body').html(html);
+    },
     initialize: function() {
         var self = this;
         this.detailsURL = /^#employees\/(\d{1,})/;
