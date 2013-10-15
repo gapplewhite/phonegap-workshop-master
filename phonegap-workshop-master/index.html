@@ -11,40 +11,47 @@
 <script id="employee-li-tpl" type="text/x-handlebars-template">
     {{#.}}
     <!-- <li><img src='img/{{firstName}}_{{lastName}}.jpg'/><a href="#employees/{{this.id}}">{{this.firstName}} {{this.lastName}}<br/>{{this.title}}</a></li>-->
-    <li><img src='{{firstName}}' /><a href="#employees/{{this.id}}">{{this.lastName}}<br/>{{this.title}}</a></li>
+    <li>
+
+    <img class='prev-image' src='{{firstName}}'/>
+			<h1
+			 style="margin: 0px 0px 5px; padding: 10px 50px; color: rgb(193, 32, 32); font-size: 20px; text-transform: uppercase; font-family: Avenir; letter-spacing: 2px; font-style: normal; font-variant: normal; font-weight: normal; text-align: start; text-indent: 0px; white-space: normal; word-spacing: 0px;">
+    <a href="#employees/{{this.id}}">{{this.lastName}}</a></li>
+    </h1>
     {{/.}}
 </script>
 <script id="employee-tpl" type="text/x-handlebars-template">
     <div class='header'><a href='#' class="button header-button header-button-left">Back</a><h1>{{lastName}}</h1></div>
     <div class='details'>
-        <img class='employee-image' src='{{firstName}}'/>
-        <h1>{{lastName}}</h1>
-        <h2>{{title}}</h2>
-        <span class="location"></span>
+        <!-- <img class='employee-image' src='{{firstName}}'/>-->
+        <!-- <h1>{{lastName}}</h1>-->
+        <!-- <h2>{{title}}</h2>-->
+        <!-- <span class="location"></span>-->
         <ul>
-            <li><a href="tel:{{officePhone}}">Call Office<br/>{{officePhone}}</a></li>
+            <!--<li><a href="tel:{{officePhone}}">Call Office<br/>{{officePhone}}</a></li>-->
             <li><p class="p1"
 			 style="margin: 0px 0px 5px; padding: 0px 30px; color: rgb(193, 32, 32); font-size: 11px; text-transform: uppercase; font-family: Avenir; letter-spacing: 2px; font-style: normal; font-variant: normal; font-weight: normal; text-align: start; text-indent: 0px; white-space: normal; word-spacing: 0px;">ARTICLE</p>
 			<h1
 			 style="margin: 0px; padding: 0px 30px; font-size: 30px; color: rgb(62, 62, 62); text-transform: uppercase; font-family: Futura; font-weight: 500; line-height: 30px; max-height: 60px; overflow: hidden; font-style: normal; font-variant: normal; letter-spacing: normal; text-align: start; text-indent: 0px; white-space: normal; word-spacing: 0px;">WHAT
 			GETS YOU OUT OF BED</h1>
-			</br>
-			<h2
-			 style="padding: 0px 30px; color: rgb(150, 148, 148); font-size: 13px; font-weight: bold; font-family: Helvetica,Arial,sans-serif; font-style: normal; font-variant: normal; letter-spacing: normal; line-height: 18px; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px;">Notes from the competitors area in Portugal, where Kelly Slater fell in Round 2</h2>
-			<p
-			 style="padding: 0px 30px; font-size: 13px; color: rgb(111, 111, 111); font-family: Helvetica,Arial,sans-serif; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 18px; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px;"><br>
-			<br>
-			<br>
-			</p>
-</li>
+			</li>
+			<li>
+				<h2
+				 style="padding: 0px 30px; color: rgb(150, 148, 148); font-size: 13px; font-weight: bold; font-family: Helvetica,Arial,sans-serif; font-style: normal; font-variant: normal; letter-spacing: normal; line-height: 18px; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px;">Notes from the competitors area in Portugal, where Kelly Slater fell in Round 2</h2>
+				<p
+				 style="padding: 0px 30px; font-size: 13px; color: rgb(111, 111, 111); font-family: Helvetica,Arial,sans-serif; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 18px; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px;"><br>
+				<br>
+				<br>
+				</p>
+			</li>
             <li>
             <div id="attachment_214243"
 			 class="wp-caption aligncenter"
-			 style="border: 0px none ; margin: 0px; padding: 0px 0px 15px; display: block; background-image: none; text-align: center; width: 944px; color: rgb(111, 111, 111); font-family: Helvetica,Arial,sans-serif; font-size: 13px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 18px; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-position: 0px 50%;">
-			<img src="http://stwww.surfermag.com/files/2013/10/by-default-2013-10-14-at-9.18.43-AM.jpg"
+			 style="border: 0px none ; margin: 0px; padding: 0px 30px; display: block; background-image: none; text-align: center; width: 200px; color: rgb(111, 111, 111); font-family: Helvetica,Arial,sans-serif; font-size: 13px; font-style: normal; margin: 10px; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 18px; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-position: 0px 50%;">
+			<img src="img/surf.jpg"
 			 alt="Photo: Rip Curl" class="size-full wp-image-214243"
 			 style="border: 0px none ; margin: 0px; padding: 0px; vertical-align: middle; max-width: 730px; max-height: 486px;"
-			 height="645" width="934">
+			 height="161" width="233">
 			<p class="wp-caption-text"
 			 style="margin: 5px 0px 1em; padding: 0px 30px; font-style: italic; color: rgb(152, 152, 152); text-align: left; font-size: 13px; width: 670px ! important;">Frederico
 			Morais played the wildcard and stirred things up at the Rip Curl Pro
@@ -79,10 +86,10 @@
             
             <li><p style="padding: 0px 30px; font-size: 13px; color: rgb(111, 111, 111); font-family: Helvetica,Arial,sans-serif; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 18px; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px;"><iframe
 			 src="http://www.youtube.com/embed/HcpNLJU5lo4?rel=0"
-			 allowfullscreen="" frameborder="0" height="380"
-			 width="675"></iframe></p></li>
+			 allowfullscreen="" frameborder="0" height="152"
+			 width="270"></iframe></p></li>
 
-            <li><a href="#" class="add-location-btn">Add Location</a></li>
+            <!--<li><a href="#" class="add-location-btn">Add Location</a></li>-->
         </ul>
     </div>
 </script>

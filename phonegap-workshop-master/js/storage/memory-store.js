@@ -40,7 +40,7 @@ var MemoryStore = function(successCallback, errorCallback) {
     }
 
     this.employees = [
-            {"id": 1, "firstName": "https://www-gm-opensocial.googleusercontent.com/gadgets/proxy/refresh=3600&amp;container=gm&amp;gadget=http%3A%2F%2Fwww.gstatic.com%2Fig%2Fmodules%2Fgm%2Fyoutube%2Fcard-youtube.xml/http://i.ytimg.com/vi/xFbF9YfIh1c/default.jpg", "lastName": "Disfruta tus vacaciones!!!", "title":"Deportes que puedes practivar", "managerId": 0, "city":"New York, NY", "cellPhone":
+            {"id": 1, "firstName": "img/surf.jpg", "lastName": "WHAT GETS YOU OUT OF BED", "title":"Notes from the competitors area in Portugal, where Kelly Slater fell in Round 2", "managerId": 0, "city":"New York, NY", "cellPhone":
             htmlArt, "officePhone":"212-999-8887", "email":"ryan@dundermifflin.com"},
             //{"id": 2, "firstName": "Michael", "lastName": "Scott", "title":"Regional Manager", "managerId": 1, "city":"Scranton, PA", "cellPhone":"570-865-2536", "officePhone":"570-123-4567", "email":"michael@dundermifflin.com"},
             //{"id": 3, "firstName": "Dwight", "lastName": "Schrute", "title":"Assistant Regional Manager", "managerId": 2, "city":"Scranton, PA", "cellPhone":"570-865-1158", "officePhone":"570-843-8963", "email":"dwight@dundermifflin.com"}//,

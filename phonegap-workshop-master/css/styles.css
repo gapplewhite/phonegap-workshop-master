@@ -226,6 +226,12 @@ h2 {
     width:200px;
     height:100px;
 }
+.prev-image {
+    float:center;
+    margin:0px;
+    width:100px;
+    height:100px;
+}
 .scroll {
     overflow: auto;
     -webkit-overflow-scrolling: touch;
